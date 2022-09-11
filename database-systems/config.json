@@ -1,0 +1,9 @@
+{
+    "System Architecture": "architecture",
+    "Query Compilation": "compilation",
+    "Query Execution and Processing": "execution",
+    "Query Optimization": "optimization",
+    "Self-Driving Operation": "selfdriving",
+    "Server-Side Logic": "serverside",
+    "System Overview": "systems"
+}
