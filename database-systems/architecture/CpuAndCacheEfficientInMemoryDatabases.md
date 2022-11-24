@@ -1,4 +1,4 @@
-## CPU and Cahce Efficient Management of Memory-Resident Databases (2013)
+## CPU and Cache Efficient Management of Memory-Resident Databases (2013)
 
 Holger Pirk, Florian Funke, Martin Grund, Thomas Neumann, Ulf Leser, Stefan Manegold, Alfons Kemper, and Martin Kersten.
 
