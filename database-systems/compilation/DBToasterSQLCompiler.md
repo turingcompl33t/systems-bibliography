@@ -2,7 +2,7 @@
 
 Yanif Ahmad and Christoph Koch.
 
-Available [here](file:///C:/Users/kdott/Downloads/3-vldb2009_dbtoaster_demo.pdf).
+Available [here](https://dbtoaster.github.io/papers/vldb2009-dbtoaster-demo.pdf).
 
 ### Big Idea
 
