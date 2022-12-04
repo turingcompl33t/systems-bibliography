@@ -34,7 +34,7 @@ To put a bow on this point: _The central abstract data type shall be the focal p
 ### Further Reading
 
 - Jet: An Embedded DSL for High-Performance Big Data Processing (2012)
-- [DBToaster: A SQL Compiler for High-Performance Delta Processing in Main-Memory Databases (2009)](DBToasterSQLCompiler.md)
+- DBToaster: A SQL Compiler for High-Performance Delta Processing in Main-Memory Databases (2009)
 - Compiling Transaction Programs (2013)
 - Legobase: Building Efficient Query Engines in a High-Level Language (2014)
 - Lightweight Modular Staging: A Pragmatic Approach to Runtime Code Generation and Compiled DSLs (2012)
