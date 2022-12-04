@@ -32,4 +32,4 @@ The overview of the process for stored procedure compilation is as follows:
 ### Further Reading
 
 - Hekaton: SQL Server's Memory-Optimized OLTP Engine (2013)
-- Efficiently Compiling Efficient Query Plans to Modern Hardware (2011)
+- [Efficiently Compiling Efficient Query Plans for Modern Hardware (2011)](EfficientlyCompilingEfficientQueryPlans.md)
