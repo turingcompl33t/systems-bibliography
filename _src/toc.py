@@ -1,14 +1,14 @@
-# update.py
-# Update the Table of Contents in the top-level README for a section.
-#
-# Usage: python update.py <TARGET_PATH> --config <CONFIG_PATH>
+"""
+Generate a table of contents Markdown file for a particular directory.
+"""
 
+import argparse
+import json
+import logging
 import os
 import re
 import sys
-import json
-import argparse
-from typing import List, Tuple, Dict, Optional
+from typing import Dict, List, Optional, Tuple
 
 # Script exit codes
 EXIT_SUCCESS = 0
@@ -42,8 +42,9 @@ def parse_arguments() -> Tuple[str, Optional[str]]:
         help="The path to the directory for which the TOC is generated.",
     )
     parser.add_argument("--config", "-c", type=str, help="The path to the config file.")
+    parser.add_argument("--verbose", action="store_true", help="Enable verbose output.")
     args = parser.parse_args()
-    return args.path, args.config
+    return args.path, args.config, args.verbose
 
 
 # -----------------------------------------------------------------------------
@@ -210,13 +211,14 @@ def write_sections(file, papers, subjects):
 
 
 def main():
-    target_path, config_path = parse_arguments()
+    target_path, config_path, verbose = parse_arguments()
+    logging.basicConfig(level=logging.INFO if verbose else logging.ERROR)
 
     # Load the configuration
     try:
         subjects = load_config(target_path if config_path is None else config_path)
     except RuntimeError as e:
-        print(f"[-] {e}")
+        logging.error(f"[-] {e}")
         return EXIT_FAILURE
 
     papers = {
@@ -224,7 +226,7 @@ def main():
         for subject, directory in subjects.items()
     }
     if len(papers) == 0:
-        print(f"[+] Target directory contains no papers, exiting.")
+        logging.warning(f"[+] Target directory contains no papers, exiting.")
         return EXIT_SUCCESS
 
     with open(os.path.join(target_path, README), "w") as file:
@@ -232,7 +234,7 @@ def main():
         write_contents(file, papers)
         write_sections(file, papers, subjects)
 
-    print(f"[+] Updated contents for directory {target_path}.")
+    logging.info(f"[+] Updated contents for directory {target_path}.")
     return EXIT_SUCCESS
 
 

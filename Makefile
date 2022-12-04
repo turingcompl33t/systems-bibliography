@@ -8,6 +8,15 @@ regen:
 	python _src/update.py programming-languages/
 	python _src/update.py storage-systems/
 
+# Sort imports
+.PHONY: sort
+sort:
+	isort -e --line-length 80 _src/*.py
+
+# Format source
 .PHONY: format
 format:
-	black _src/update.py
+	black _src/*.py
+
+.PHONY: qa
+qa: sort format
