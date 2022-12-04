@@ -50,4 +50,4 @@ Another critical component mentioned in passing is the presence of log files. Th
 
 ### Further Reading
 
-- Bigtable: A distributed storage system for structured data
+- Bigtable: A distributed storage system for structured data (2008)

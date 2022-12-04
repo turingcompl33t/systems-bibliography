@@ -46,5 +46,5 @@ N/A
 
 ### Further Reading
 
-- FirePlace: Placing Firecracker Virtual Machines with Hindsight Imitation
-- Continuous Training for Production {ML} in the Tensorflow Extended ({TFX}) platform
+- FirePlace: Placing Firecracker Virtual Machines with Hindsight Imitation (2020)
+- Continuous Training for Production {ML} in the Tensorflow Extended ({TFX}) platform (2019)
