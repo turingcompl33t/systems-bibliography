@@ -49,10 +49,13 @@ These are papers that I make note of while scanning the paper's references. Many
 
 Maintaining this bibliography in Markdown has its benefits and drawbacks. I find authoring in Markdown extremely satisfying - it is quick to write, and it renders in a clean, readable format with support for code blocks with syntax highlighting. However, it also means that many features are missing, like built-in support for a table of contents.
 
-In order to stay organized, I wrote a little script ([`src/update.py`](./_src/update.py)) that regenerates the index page for each top-level section of the bibliography. To simplify things further, I provide a `Makefile` target to regenerate the index for each section:
+In order to stay organized, I wrote a collection of scripts (in [`_src`](./_src/)) that do the following:
+- Regenerate the index page for each top-level section of the bibliography
+
+The default target for the top-level `Makefile` invokes a script that runs each of the scripts described above:
 
 ```bash
-make regen
+make
 ```
 
 Run this after the addition of any page to keep all indexes up-to-date.

@@ -127,7 +127,7 @@ def all(repo_root: str):
         return EXIT_FAILURE
 
     # Write table of contents
-    write_all(repo_root, interpreter, resolve_script_path(repo_root, TOC_SCRIPT_NAME))
+    write_all(repo_root, interpreter(), resolve_script_path(repo_root, TOC_SCRIPT_NAME))
 
 
 def main() -> int:
