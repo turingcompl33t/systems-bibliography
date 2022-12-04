@@ -27,4 +27,4 @@ Like the Impala paper, this paper also does a nice job of motivating the code ge
 
 ### Further Reading
 
-- Spark SQL: Relational Data Processing in Spark (2015)
+- [Spark SQL: Relational Data Processing in Spark (2015)](../optimization/SparkSQLRelationalProcessingSpark.md)

@@ -27,11 +27,11 @@ This paper also (finally) includes an explicit declaration that the answer to th
 ### Further Reading
 
 - FunSQL: It is Time to Make SQL Functional (2012)
-- Compiling PL/SQL Away (2019)
+- [Compiling PL/SQL Away (2019)](CompilingPLSQLAway.md)
 - Extracting Equivalent SQL from Imperative Code in Database Applications (2016)
 - Using Automatic Peristent Memoization to Facilitate Data Analysis Scripting (2011)
-- PL/SQL Without the PL (2020)
+- [PL/SQL Without the PL (2020)](PLSQLWithoutThePL.md)
 - A History of Haskell: Being Lazy with Class (2007)
 - Postgres 12 Documentation (Adds Support for Inlining?)
-- Froid: Optimization of Imperative Programs in a Relational Database (2018)
+- [Froid: Optimization of Imperative Programs in a Relational Database (2018)](FroidImperativeProgramsRelationalDB.md)
 - Debunking the "Expensive Procedure Call" Myth, or Procedure Call Implementations Considered Harmful, or LAMBDA: The Ultimate GOTO (1977)

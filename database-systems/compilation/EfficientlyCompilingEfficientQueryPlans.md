@@ -24,6 +24,6 @@ Instead of this naive approach, the author merely uses LLVM to "glue together" t
 
 ### Further Reading
 
-- MonetDB/X100: Hyper-Pipelining Query Execution (2005)
-- Generating Code for Holistic Query Evaluation (2010)
+- [MonetDB/X100: Hyper-Pipelining Query Execution (2005)](../execution/MonetDBX100.md)
+- [Generating Code for Holistic Query Evaluation (2010)](GeneratingCodeHolisticEvaluation.md)
 - Compiled Query Execution Engine using JVM (2006)

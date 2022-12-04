@@ -36,7 +36,7 @@ One downside of PCQ is that it is eager - it appears that it will always generat
 ### Further Reading
 
 - Grizzly: Efficient Stream Processing through Adaptive Query Compilation (2020)
-- Adaptive Execution of Compiled Queries (2018)
+- [Adaptive Execution of Compiled Queries (2018)](AdaptiveExecutionCompiledQueries.md)
 - How Good are Query Optimizers, Really? (2015)
-- Relaxed Operator Fusion for In-Memory Databases: Making Compilation, Vectorization, and Prefetching Work Together at Last (2017)
+- [Relaxed Operator Fusion for In-Memory Databases: Making Compilation, Vectorization, and Prefetching Work Together at Last (2017)](RelaxedOperatorFusion.md)
 - Dynamic Speculative Optimizations for SQL Compilation in Apache Spark (2020)

@@ -41,5 +41,5 @@ It is interesting to note that the authors make no mention of whether Flounder I
 
 - Fast, Effective Dynamic Compilation (1996)
 - Generating Custom Code for Efficient Query Execution on Heterogenous Processors (2018)
-- Adaptive Execution of Compiled Queries (2018)
+- [Adaptive Execution of Compiled Queries (2018)](AdaptiveExecutionCompiledQueries.md)
 - Efficiently Generating Efficient Query Plans for Modern Hardware (2011)

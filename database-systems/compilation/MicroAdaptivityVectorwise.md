@@ -28,6 +28,6 @@ Finally, in the section on future work, the authors mention the potential of app
 
 ### Further Reading
 
-- MonetDB/X100: Hyper-Pipelining Query Execution (2005)
+- [MonetDB/X100: Hyper-Pipelining Query Execution (2005)](../execution/MonetDBX100.md)
 - Improving Hash Join Performance Through Prefetching (2007)
 - Vectorization vs. Compilation in Query Execution (2011)

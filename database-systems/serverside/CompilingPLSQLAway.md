@@ -40,5 +40,5 @@ N/A
 
 ### Further Reading
 
-- Orthogonal Optimization of Subqueries and Aggregation (2001)
+- [Orthogonal Optimization of Subqueries and Aggregation (2001)](../optimization/OrthogonalOptimizationSubqueries.md)
 - SQL and Operator-Centric Data Analytics in Relational Main-Memory Databases (2017)

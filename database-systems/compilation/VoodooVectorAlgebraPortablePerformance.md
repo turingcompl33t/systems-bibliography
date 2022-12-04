@@ -27,5 +27,5 @@ Finally, one concept that seems to pop up again and again in these papers is the
 ### Further Reading
 
 - Building Efficient Query Engines in a High-Level Language (2014)
-- Generating Code for Holistic Query Evaluation (2010)
-- Efficiently Compiling Efficient Query Plans for Modern Hardware (2011)
+- [Generating Code for Holistic Query Evaluation (2010)](GeneratingCodeHolisticEvaluation.md)
+- [Efficiently Compiling Efficient Query Plans for Modern Hardware (2011)](EfficientlyCompilingEfficientQueryPlans.md)

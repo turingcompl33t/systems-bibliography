@@ -33,8 +33,8 @@ The third optimization type is the novelty here. Tupleware is able to apply thes
 ### Further Reading
 
 - Building Efficient Query Engines in a High-Level Language (2014)
-- Generating Code for Holistic Query Evaluation (2010)
-- Efficiently Compiling Efficient Query Plans for Modern Hardware (2011)
+- [Generating Code for Holistic Query Evaluation (2010)](../compilation/GeneratingCodeHolisticEvaluation.md)
+- [Efficiently Compiling Efficient Query Plans for Modern Hardware (2011)](../compilation/EfficientlyCompilingEfficientQueryPlans.md)
 - Compiled Query Execution Engine Using JVM (2006)
 - OptiML: An Implicitly Parallel Domain-Specific Language for Machine Learning (2011)
 - Code Generation for In-Memory Data Analytics (2019)

@@ -3,6 +3,7 @@ Wrap all content generation functionality.
 """
 
 import argparse
+import glob
 import logging
 import os
 import subprocess
@@ -27,6 +28,9 @@ SRC_DIRNAME = "_src"
 
 # The name of the table of contents script
 TOC_SCRIPT_NAME = "toc.py"
+
+# The name of the links script
+LINKS_SCRIPT_NAME = "links.py"
 
 # -----------------------------------------------------------------------------
 # Argument Parsing
@@ -128,6 +132,14 @@ def all(repo_root: str):
 
     # Write table of contents
     write_all(repo_root, interpreter(), resolve_script_path(repo_root, TOC_SCRIPT_NAME))
+
+    # Write links
+    write_all(
+        repo_root,
+        interpreter(),
+        resolve_script_path(repo_root, LINKS_SCRIPT_NAME),
+        [os.path.abspath(item) for item in os.listdir(repo_root) if item in DIR_NAMES],
+    )
 
 
 def main() -> int:

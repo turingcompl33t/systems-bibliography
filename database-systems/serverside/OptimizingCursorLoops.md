@@ -36,11 +36,11 @@ See above.
 ### Further Reading
 
 - Optimizing Database Applications with Query Synthesis (2013)
-- Compiling PL/SQL Away (2019)
+- [Compiling PL/SQL Away (2019)](CompilingPLSQLAway.md)
 - Extracting Equivalent SQL from Imperative Code in Database Applications (2016)
 - Cobra: A Framework for Cost-Based Rewriting of Database Applications (2018)
 - SQLoop: High-Performance Iterative Processing in Data Management (2018)
-- Orthogonal Optimization of Subqueries and Aggregation (2001)
+- [Orthogonal Optimization of Subqueries and Aggregation (2001)](../optimization/OrthogonalOptimizationSubqueries.md)
 - Iterative Query Processing Based on Unified Optimization Techniques (2019)
 - Translating Imperative Code to MapReduce (2014)
 - Froid: Optimization of Imperative Programs in a Relational Database (2017)

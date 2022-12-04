@@ -27,7 +27,7 @@ How would one integrate a DBMS with Weld? It appears that for a code generation 
 
 ### Further Reading
 
-- Spark SQL: Relational Data Processing in Spark (2015)
+- [Spark SQL: Relational Data Processing in Spark (2015)](../optimization/SparkSQLRelationalProcessingSpark.md)
 - Building Efficient Query Engines in a High-Level Language (2014)
 - Optimizing Data Structures in High-Level Programs (2013)
 - Apache Spark: A Unified Engine for Big Data Processing (2016)

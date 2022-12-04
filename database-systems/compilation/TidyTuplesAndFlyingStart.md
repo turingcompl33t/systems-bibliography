@@ -74,8 +74,8 @@ This is the first time, in any of these papers, that I have seen a nice chronolo
 
 ### Further Reading
 
-- Efficient Generation of Machine Code for Query Compilers (2020)
+- [Efficient Generation of Machine Code for Query Compilers (2020)](EfficientGenerationFlounderIR.md)
 - Just-In-Time Data Virtualization: Lightweight Data Management with ViDa (2015)
-- Adaptive Execution of Compiled Queries (2018)
+- [Adaptive Execution of Compiled Queries (2018)](AdaptiveExecutionCompiledQueries.md)
 - Evaluating End-to-End Optimization for Data Analytics Applications in Weld (2018)
 - Thriving in the No Man's Land Between Compilers and Databases (2019)

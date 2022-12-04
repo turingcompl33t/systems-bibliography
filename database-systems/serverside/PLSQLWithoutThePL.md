@@ -18,4 +18,4 @@ I am not entirely convinced of the utility of the web UI for the Apfel compiler 
 
 ### Further Reading
 
-- Compiling PL/SQL Away (2019)
+- [Compiling PL/SQL Away (2019)](CompilingPLSQLAway.md)

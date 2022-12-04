@@ -24,15 +24,13 @@ The technology here is super cool and obviously very advanced, but it still feel
 
 ### Further Reading
 
-The _related works_ section of this paper is a treasure trove of great resources. I had to work hard to narrow it down to even the relatively-large list below.
-
 - FAD.js: Fast JSON Data Access Using JIT-Based Speculative Optimizations (2017)
 - An Architecture for Compiling UDF-Centric Workflows (2015)
-- Compiling PL/SQL Away (2019)
-- PL/SQL Without the PL (2020)
-- Everything You Always Wanted to Know About Compiled and Vectorized Queries but Were Afraid to Ask (2018)
-- Adaptive Execution of Compiled Queries (2018)
-- Efficiently Compiling Efficient Query Plans for Modern Hardware (2011)
+- [Compiling PL/SQL Away (2019)](../serverside/CompilingPLSQLAway.md)
+- [PL/SQL Without the PL (2020)](../serverside/PLSQLWithoutThePL.md)
+- [Everything You Always Wanted to Know About Compiled and Vectorized Queries but Were Afraid to Ask (2018)](../architecture/EverythingYouWantedToKnowCompiledVectorized.md)
+- [Adaptive Execution of Compiled Queries (2018)](AdaptiveExecutionCompiledQueries.md)
+- [Efficiently Compiling Efficient Query Plans for Modern Hardware (2011)](EfficientlyCompilingEfficientQueryPlans.md)
 - The Java Hotspot Server Compiler (2001)
 - Self-Driving Database Management Systems (2017)
 - Micro-Adaptivity in Vectorwise (2013)

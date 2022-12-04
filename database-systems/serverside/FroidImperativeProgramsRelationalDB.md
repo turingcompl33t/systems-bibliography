@@ -47,4 +47,4 @@ One big question / confusion I am left with is in the discussion of integration 
 - Optimizing Database-Backed Applications with Query Synthesis (2013)
 - Hekaton: SQL Server's Memory-Optimized OLTP Engine (2013)
 - DBridge: Translating Imperative Code to SQL (2017)
-- Orthogonal Optimization of Subqueries and Aggregation (2001)
+- [Orthogonal Optimization of Subqueries and Aggregation (2001)](../optimization/OrthogonalOptimizationSubqueries.md)

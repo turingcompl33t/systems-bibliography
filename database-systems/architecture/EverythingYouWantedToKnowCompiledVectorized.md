@@ -32,13 +32,13 @@ Some non-performance considerations:
 
 ### Further Reading
 
-- Apache Spark as a Compiler: Joining a Billion Rows per Second on a Laptop (2016)
+- [Apache Spark as a Compiler: Joining a Billion Rows per Second on a Laptop (2016)](../compilation/SparkAsACompiler.md)
 - An Architecture for Compiling UDF-Centric Workflows (2015)
 - Compilation in the Microsoft SQL Server Hekaton Engine (2014)
 - Exploring Query Compilation Strategies for JIT (2018)
-- Relaxed Operator Fusion for In-Memory Databases: Making Compilation, Vectorization, and Prefetching Work Together at Last (2017)
+- [Relaxed Operator Fusion for In-Memory Databases: Making Compilation, Vectorization, and Prefetching Work Together at Last (2017)](../compilation/RelaxedOperatorFusion.md)
 - Weld: Rethinking the Interface Between Data-Intensive Applications (2017)
 - A Common Runtime for High Performance Data Analysis (2017)
-- How to Architect a Query Compiler (2016)
+- [How to Architect a Query Compiler (2016)](../compilation/HowToAchitectAQueryCompiler.md)
 - Vectorization vs Compilation in Query Execution (2011)
 - How to Architect a Query Compiler, Revisited (2018)

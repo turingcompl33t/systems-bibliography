@@ -29,8 +29,8 @@ The dual-mode execution strategy is interesting, and indeed this is the primary 
 
 - DBToaster: A SQL Compiler for High-Performance Delta Processing (2009)
 - An Architecture for Compiling UDF-Centric Workflows (2015)
-- Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data (2018)
+- [Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data (2018)](FlareOptimizingSparkWithNativeCompilation.md)
 - Building Efficient Query Engines in a High-Level Language (2014)
-- How to Architect a Query Compiler (2016)
+- [How to Architect a Query Compiler (2016)](HowToAchitectAQueryCompiler.md)
 - How to Architect a Query Compiler, Revisited (2018)
 - Vectorwise: A Vectorized Analytical DBMS (2012)

@@ -27,4 +27,4 @@ One final interesting aspect of the execution engine is that the majority of the
 ### Further Reading
 
 - Database Architecture Optimized for the New Bottleneck: Memory Access (1999)
-- MonetDB/X100: Hyper-Pipelining Query Execution (2005)
+- [MonetDB/X100: Hyper-Pipelining Query Execution (2005)](../execution/MonetDBX100.md)

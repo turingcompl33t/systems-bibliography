@@ -162,11 +162,11 @@ def write_links_for(path: str, index: Dict[str, str]):
         logging.warning(f"Failed to find 'Further Reading' in {path}, skipping.")
         return
 
-    # Begin constructing the new file
-    new_content = lines[: begin + 1]
+    # Begin constructing the new file after header and newline
+    new_content = lines[: begin + 2]
 
     # Isolate the lines we will modify
-    lines = lines[begin + 1 :]
+    lines = lines[begin + 2 :]
     lines = [line for line in lines if line.strip().strip("\n") != ""]
     for line in lines:
         title = parse_title_from_link(line).lower()
@@ -176,7 +176,6 @@ def write_links_for(path: str, index: Dict[str, str]):
             # The paper is not present, pass through
             new_content.append(line)
 
-    new_content.append("\n")
     with open(path, "w") as f:
         f.writelines(new_content)
 
@@ -193,6 +192,7 @@ def links(path: str, sources: List[str]):
     :param sources The collection of sources
     """
     index = build_index(sources)
+    print(f"INDEX SIZE: {len(index)}")
 
     # Locate content files and remove README.md
     markdown_files = [p.as_posix() for p in Path(path).rglob("*.md")]
@@ -207,7 +207,11 @@ def main() -> int:
     path, sources, verbose = parse_arguments()
     logging.basicConfig(level=logging.INFO if verbose else logging.ERROR)
 
-    links(path, sources)
+    try:
+        links(path, sources)
+    except Exception as e:
+        logging.error(f"{e}")
+        return EXIT_FAILURE
 
     return EXIT_SUCCESS
 

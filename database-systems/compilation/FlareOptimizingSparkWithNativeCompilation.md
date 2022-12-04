@@ -33,13 +33,13 @@ One final aspect of interest is the handling of UDFs in _Flare_. _Flare_ is capa
 
 ### Further Reading
 
-- Spark SQL: Relational Data Processing in Spark (2015)
+- [Spark SQL: Relational Data Processing in Spark (2015)](../optimization/SparkSQLRelationalProcessingSpark.md)
 - An Architecture for Compiling UDF-Centric Workflows (2015)
 - Hekaton: SQL Server's Memory-Optimized OLTP Engine (2013)
 - Building Efficient Query Engines in a High-Level Language (2014)
-- Generating Code for Holistic Query Evaluation (2010)
+- [Generating Code for Holistic Query Evaluation (2010)](GeneratingCodeHolisticEvaluation.md)
 - Code Generation for Efficient Query Processing in Managed Runtimes (2014)
-- Weld: A Common Runtime for High Performance Data Analytics (2017)
+- [Weld: A Common Runtime for High Performance Data Analytics (2017)](WeldCommonRuntimeAnalytics.md)
 - Voodoo: A Vector Algebra for Portable Database Performance on Modern Hardware (2016)
 - Delite: A Compiler Infrastructure fr Performance-Oriented Embedded Domain-Specific Languages (2014)
 - A Gentle Introduction to Multi-Stage Programming (2004)
