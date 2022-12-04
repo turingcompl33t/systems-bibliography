@@ -176,6 +176,10 @@ def write_links_for(path: str, index: Dict[str, str]):
             # The paper is not present, pass through
             new_content.append(line)
 
+    new_content.append("\n")
+    with open(path, "w") as f:
+        f.writelines(new_content)
+
 
 # -----------------------------------------------------------------------------
 # Main
