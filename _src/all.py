@@ -20,6 +20,7 @@ DIR_NAMES = [
     "database-systems",
     "mlsys",
     "programming-languages",
+    "software-engineering",
     "storage-systems",
 ]
 
