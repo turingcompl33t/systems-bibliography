@@ -6,6 +6,8 @@ Available [here](todo).
 
 ### Big Idea
 
+Propose a framework for designing systems that integrate functionality from foundation models.
+
 ### Summary
 
 The authors propose a taxonomy with three categories:

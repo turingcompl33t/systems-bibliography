@@ -1,6 +1,7 @@
 {
     "Data Management": "data-management",
     "Foundation Models": "foundation-models",
+    "Inference": "inference",
     "Neural Networks": "neural-networks",
     "Test and Evaluation": "test-and-evaluation"
 }
