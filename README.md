@@ -6,6 +6,7 @@ This repository contains an annotated bibliography that I've built from my readi
 
 At the top-level, I partition papers among the following categories:
 
+- [Artificial Intelligence](./ai)
 - [Cloud Computing](./cloud-computing/)
 - [Database Systems](./database-systems/)
 - [Machine Learning Systems](./mlsys/)

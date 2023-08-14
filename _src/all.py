@@ -16,6 +16,7 @@ EXIT_FAILURE = 1
 
 # The names of the directories that contain content
 DIR_NAMES = [
+    "ai",
     "cloud-computing",
     "database-systems",
     "mlsys",
