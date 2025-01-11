@@ -1,6 +1,8 @@
 ## Systems Bibliography
 
-This repository contains an annotated bibliography that I've built from my readings in computer systems research.
+This repository contains an annotated bibliography that I've built from my readings in computer systems research. At this point, the contents of the bibliography extend beyond what is traditionally considered the domain of "computer systems", but I'm keeping the title anyway.
+
+Where possible, I maintain cross-references between entries of the bibliography.
 
 ### Contents
 
@@ -8,6 +10,7 @@ At the top-level, I partition papers among the following categories:
 
 - [Artificial Intelligence](./ai)
 - [Cloud Computing](./cloud-computing/)
+- [Cybersecurity](./cybersecurity)
 - [Database Systems](./database-systems/)
 - [Machine Learning Systems](./mlsys/)
 - [Programming Languages](./programming-languages/)

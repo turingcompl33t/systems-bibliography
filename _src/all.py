@@ -18,6 +18,7 @@ EXIT_FAILURE = 1
 DIR_NAMES = [
     "ai",
     "cloud-computing",
+    "cybersecurity",
     "database-systems",
     "mlsys",
     "programming-languages",
